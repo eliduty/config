@@ -1,0 +1,43 @@
+lockfileVersion: '6.1'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .: {}
+
+  packages/eslint-config: {}
+
+  packages/eslint-config-basic: {}
+
+  packages/eslint-config-ts: {}
+
+  packages/eslint-config-vue: {}
+
+  packages/tsconfig: {}
+
+  packages/tsconfig-basic:
+    devDependencies:
+      '@tsconfig/recommended':
+        specifier: ^1.0.2
+        version: 1.0.2
+
+  packages/tsconfig-node:
+    devDependencies:
+      '@tsconfig/node-lts':
+        specifier: ^18.12.2
+        version: 18.12.2
+
+  packages/tsconfig-vue: {}
+
+packages:
+
+  /@tsconfig/node-lts@18.12.2:
+    resolution: {integrity: sha512-1zbWpsZkChnemJsRm+G2EyjuPueNPkjBEfp08ET1uCv0CUL/5AK1IZvFtEsw7ZyEqojIydye3mwt6k8isULj4A==}
+    dev: true
+
+  /@tsconfig/recommended@1.0.2:
+    resolution: {integrity: sha512-dbHBtbWBOjq0/otpopAE02NT2Cm05Qe2JsEKeCf/wjSYbI2hz8nCqnpnOJWHATgjDz4fd3dchs3Wy1gQGjfN6w==}
+    dev: true

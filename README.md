@@ -1,2 +1,2 @@
-# dev-config
+# config
 development config
