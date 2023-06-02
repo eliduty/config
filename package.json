@@ -8,5 +8,9 @@
   },
   "keywords": [],
   "author": "",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "release-it": "^15.10.3",
+    "unbuild": "^1.2.1"
+  }
 }
