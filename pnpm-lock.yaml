@@ -16,28 +16,28 @@ importers:
 
   packages/eslint-config-vue: {}
 
-  packages/tsconfig: {}
-
-  packages/tsconfig-basic:
-    devDependencies:
-      '@tsconfig/recommended':
-        specifier: ^1.0.2
-        version: 1.0.2
-
-  packages/tsconfig-node:
-    devDependencies:
+  packages/tsconfig:
+    dependencies:
       '@tsconfig/node-lts':
         specifier: ^18.12.2
         version: 18.12.2
-
-  packages/tsconfig-vue: {}
+      '@types/node':
+        specifier: ^20.2.5
+        version: 20.2.5
+      '@vue/tsconfig':
+        specifier: ^0.4.0
+        version: 0.4.0
 
 packages:
 
   /@tsconfig/node-lts@18.12.2:
     resolution: {integrity: sha512-1zbWpsZkChnemJsRm+G2EyjuPueNPkjBEfp08ET1uCv0CUL/5AK1IZvFtEsw7ZyEqojIydye3mwt6k8isULj4A==}
-    dev: true
+    dev: false
 
-  /@tsconfig/recommended@1.0.2:
-    resolution: {integrity: sha512-dbHBtbWBOjq0/otpopAE02NT2Cm05Qe2JsEKeCf/wjSYbI2hz8nCqnpnOJWHATgjDz4fd3dchs3Wy1gQGjfN6w==}
-    dev: true
+  /@types/node@20.2.5:
+    resolution: {integrity: sha512-JJulVEQXmiY9Px5axXHeYGLSjhkZEnD+MDPDGbCbIAbMslkKwmygtZFy1X6s/075Yo94sf8GuSlFfPzysQrWZQ==}
+    dev: false
+
+  /@vue/tsconfig@0.4.0:
+    resolution: {integrity: sha512-CPuIReonid9+zOG/CGTT05FXrPYATEqoDGNrEaqS4hwcw5BUNM2FguC0mOwJD4Jr16UpRVl9N0pY3P+srIbqmg==}
+    dev: false

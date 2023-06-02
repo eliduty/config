@@ -8,5 +8,13 @@
   "main": "tsconfig.json",
   "publishConfig": {
     "access": "public"
+  },
+  "dependencies": {
+    "@tsconfig/node-lts": "^18.12.2",
+    "@types/node": "^20.2.5",
+    "@vue/tsconfig": "^0.4.0"
+  },
+  "scripts": {
+    "release": "release-it"
   }
 }
