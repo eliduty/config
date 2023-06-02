@@ -1,17 +1,21 @@
 {
   "name": "config",
   "version": "1.0.0",
-  "description": "",
+  "description": "project config",
+  "keywords": [],
+  "license": "MIT",
+  "author": {
+    "name": "eliduty",
+    "email": "eliduty@qq.com"
+  },
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev:example:vue3":"pnpm --filter @example/vite-vue3 dev"
+    "dev:example:vue3": "pnpm --filter @example/vite-vue3 dev",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "MIT",
   "devDependencies": {
     "release-it": "^15.10.3",
+    "taze": "^0.10.1",
     "unbuild": "^1.2.1"
   }
 }

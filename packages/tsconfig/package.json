@@ -36,11 +36,17 @@
   "scripts": {
     "release": "release-it"
   },
-  "dependencies": {
-    "@eliduty/tsconfig": "^1.0.0",
+  "devDependencies": {
     "@tsconfig/node-lts": "^18.12.2",
     "@types/node": "^20.2.5",
-    "@vue/tsconfig": "^0.4.0"
+    "@vue/tsconfig": "^0.4.0",
+    "typescript": "^5.0.2"
+  },
+  "peerDependencies": {
+    "@tsconfig/node-lts": "^18.12.2",
+    "@types/node": "^20.2.5",
+    "@vue/tsconfig": "^0.4.0",
+    "typescript": "^5.0.2"
   },
   "publishConfig": {
     "access": "public"
