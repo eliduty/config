@@ -1,13 +1,40 @@
 {
   "name": "@eliduty/tsconfig",
   "version": "1.0.0",
-  "description": "",
-  "keywords": [],
+  "description": "This is the configuration of the TypeScript project",
+  "keywords": [
+    "tsconfig",
+    "typescript",
+    "typescript vue",
+    "typescript node"
+  ],
+  "homepage": "https://www.npmjs.com/package/@eliduty/tsconfig",
   "license": "MIT",
-  "author": "",
+  "author": {
+    "name": "eliduty",
+    "email": "eliduty@qq.com"
+  },
+  "contributors": [
+    {
+      "name": "eliduty",
+      "email": "eliduty@qq.com",
+      "url": "https://github.com/eliduty"
+    }
+  ],
+  "exports": {
+    ".": "./tsconfig.json",
+    "./vue": "./tsconfig.vue.json",
+    "./node": "./tsconfig.node.json"
+  },
   "main": "tsconfig.json",
-  "publishConfig": {
-    "access": "public"
+  "files": [
+    "tsconfig.json",
+    "tsconfig.basic.json",
+    "tsconfig.vue.json",
+    "tsconfig.node.json"
+  ],
+  "scripts": {
+    "release": "release-it"
   },
   "dependencies": {
     "@eliduty/tsconfig": "^1.0.0",
@@ -15,7 +42,7 @@
     "@types/node": "^20.2.5",
     "@vue/tsconfig": "^0.4.0"
   },
-  "scripts": {
-    "release": "release-it"
+  "publishConfig": {
+    "access": "public"
   }
 }
