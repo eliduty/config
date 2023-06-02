@@ -1,0 +1,10 @@
+{
+  "git": {
+    "commitMessage": "chore: release stylelint v${version}",
+    "tag": false,
+    "requireCleanWorkingDir": false
+  },
+  "github": {
+    "release": false
+  }
+}
