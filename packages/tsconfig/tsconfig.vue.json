@@ -1,8 +1,7 @@
 {
-  "extends": ["@tsconfig/node-lts/tsconfig.json", "@vue/tsconfig/tsconfig.dom.json","./tsconfig.basic.json"],
-  "compilerOptions": {
-    "paths": {
-      "@/*": ["./src/*"]
-    }
-  }
+  "extends": [
+    "./tsconfig.basic.json",
+    "@tsconfig/node-lts/tsconfig.json",
+    "@vue/tsconfig/tsconfig.dom.json"
+  ]
 }
