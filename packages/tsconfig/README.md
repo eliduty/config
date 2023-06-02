@@ -7,11 +7,11 @@ TypeScript 项目配置。
 ## 安装
 
 ```shell
-npm install @eliduty/tsconfig
+npm install -D @eliduty/tsconfig
 // 或
-yarn add @eliduty/tsconfig
+yarn add -D @eliduty/tsconfig
 // 或
-pnpm install @eliduty/tsconfig
+pnpm install -D @eliduty/tsconfig
 ```
 
 ## 使用
