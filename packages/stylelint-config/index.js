@@ -2,7 +2,7 @@ module.exports = {
   extends: ["stylelint-config-standard", "stylelint-config-rational-order"],
   overrides: [
     {
-      files: ["**/*.{html,vue}"],
+      files: ["**/*.{html,htm,vue}"],
       customSyntax: "postcss-html",
     },
     {
@@ -45,12 +45,8 @@ module.exports = {
     ],
     "no-duplicate-selectors": null,
     "no-empty-source": null,
-    "unicode-bom": "never",
     "no-descending-specificity": null,
     "font-family-no-missing-generic-family-keyword": null,
-    "declaration-colon-space-after": "always-single-line",
-    "declaration-colon-space-before": "never",
-    "declaration-block-trailing-semicolon": "always",
     "rule-empty-line-before": [
       "always",
       {
