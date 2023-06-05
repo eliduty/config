@@ -1,12 +1,50 @@
 {
-  "name": "eslint-config",
+  "name": "@eliduty/eslint-config",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "description": "This is the configurable eslint standard",
+  "keywords": [
+    "config",
+    "eslint",
+    "format"
+  ],
+  "homepage": "https://www.npmjs.com/package/@eliduty/eslint-config",
+  "license": "MIT",
+  "author": {
+    "name": "eliduty",
+    "email": "eliduty@qq.com"
   },
-  "keywords": [],
-  "author": "",
-  "license": "MIT"
+  "contributors": [
+    {
+      "name": "eliduty",
+      "email": "eliduty@qq.com",
+      "url": "https://github.com/eliduty"
+    }
+  ],
+  "main": "./index.js",
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "release": "release-it"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "eslint-import-resolver-typescript": "^3.5.5",
+    "eslint-plugin-eslint-comments": "^3.2.0",
+    "eslint-plugin-html": "^7.1.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-jsonc": "^2.8.0",
+    "eslint-plugin-n": "^16.0.0",
+    "eslint-plugin-promise": "^6.1.1",
+    "eslint-plugin-unicorn": "^47.0.0",
+    "eslint-plugin-unused-imports": "^2.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.42.0"
+  },
+  "peerDependencies": {
+    "eslint": "^8.42.0"
+  }
 }
