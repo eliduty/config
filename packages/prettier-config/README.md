@@ -7,11 +7,11 @@ Prettier 配置。
 ## 安装
 
 ```shell
-npm install -D @eliduty/prettier-config
+npm install -D prettier @eliduty/prettier-config
 // 或
-yarn add -D @eliduty/prettier-config
+yarn add -D prettier @eliduty/prettier-config
 // 或
-pnpm install -D @eliduty/prettier-config
+pnpm install -D prettier @eliduty/prettier-config
 ```
 
 ## 使用
