@@ -8,7 +8,7 @@
     "build": "pnpm typecheck && vite build",
     "preview": "vite preview",
     "typecheck": "vue-tsc --noEmit",
-    "lint:style": "stylelint --fix **/src/**/*.{vue,htm,html,css,sss,less,scss}"
+    "lint:style": "stylelint --fix src/**/*.{vue,htm,html,css,less,scss}"
   },
   "dependencies": {
     "vue": "^3.2.47"
