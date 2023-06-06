@@ -1,5 +1,5 @@
 module.exports = {
   extends: [
-    './basic',
+    require.resolve('./basic')
   ],
 }

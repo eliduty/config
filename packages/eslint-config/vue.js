@@ -4,7 +4,7 @@ require('@rushstack/eslint-patch/modern-module-resolution');
 
 module.exports = {
   extends: [
-    './basic',
+    require.resolve('./basic'),
     'plugin:vue/vue3-recommended',
     '@vue/eslint-config-typescript/recommended',
     '@vue/eslint-config-prettier',
