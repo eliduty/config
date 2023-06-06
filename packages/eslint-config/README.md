@@ -7,11 +7,11 @@ Prettier 配置。
 ## 安装
 
 ```shell
-npm install -D @eliduty/eslint-config
+npm install -D eslint @eliduty/eslint-config
 // 或
-yarn add -D @eliduty/eslint-config
+yarn add -D eslint @eliduty/eslint-config
 // 或
-pnpm install -D @eliduty/eslint-config
+pnpm install -D eslint @eliduty/eslint-config
 ```
 
 ## 使用
