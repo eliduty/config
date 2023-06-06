@@ -1,6 +1,6 @@
 {
   "git": {
-    "commitMessage": "chore: release prettier v${version}",
+    "commitMessage": "chore: release prettier-config v${version}",
     "tag": false,
     "requireCleanWorkingDir": false
   },

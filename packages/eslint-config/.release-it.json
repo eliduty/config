@@ -1,6 +1,6 @@
 {
   "git": {
-    "commitMessage": "chore: release stylelint-config v${version}",
+    "commitMessage": "chore: release eslint-config v${version}",
     "tag": false,
     "requireCleanWorkingDir": false
   },
