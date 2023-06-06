@@ -29,7 +29,7 @@ pnpm install -D eslint @eliduty/eslint-config
 然后执行以下命令：
 
 ``` shell
-pnpm pkg set scripts.lint:format="eslint --cache --fix **/src/**/*.{html,htm,js,jsx}"
+pnpm pkg set scripts.lint:format="eslint --cache --fix **/src/**/*.{html,htm,js,jsx,cjs,mjs}"
 ```
 
 或者在package.json的scripts中添加如下配置：
@@ -37,7 +37,7 @@ pnpm pkg set scripts.lint:format="eslint --cache --fix **/src/**/*.{html,htm,js,
 ```json
 {
   "scripts":{
-    "lint:format":"eslint --cache --fix **/src/**/*.{html,htm,js,jsx}"
+    "lint:format":"eslint --cache --fix **/src/**/*.{html,htm,js,jsx,cjs,mjs}"
   }
 }
 ```
@@ -53,7 +53,7 @@ pnpm pkg set scripts.lint:format="eslint --cache --fix **/src/**/*.{html,htm,js,
 然后执行以下命令：
 
 ``` shell
-pnpm pkg set scripts.lint:format="eslint --cache --fix **/src/**/*.{html,htm,js,jsx,ts,tsx}"
+pnpm pkg set scripts.lint:format="eslint --cache --fix **/src/**/*.{html,htm,js,jsx,cjs,mjs,ts,tsx,cts,mts}"
 ```
 
 或者在package.json的scripts中添加如下配置：
@@ -61,7 +61,7 @@ pnpm pkg set scripts.lint:format="eslint --cache --fix **/src/**/*.{html,htm,js,
 ```json
 {
   "scripts":{
-    "lint:format":"eslint --cache --fix **/src/**/*.{html,htm,js,jsx,ts,tsx}"
+    "lint:format":"eslint --cache --fix **/src/**/*.{html,htm,js,jsx,cjs,mjs,ts,tsx,cts,mts}"
   }
 }
 ```
@@ -77,7 +77,7 @@ pnpm pkg set scripts.lint:format="eslint --cache --fix **/src/**/*.{html,htm,js,
 然后执行以下命令：
 
 ``` shell
-pnpm pkg set scripts.lint:format="eslint --cache --fix **/src/**/*.{html,htm,js,jsx,ts,tsx,vue}"
+pnpm pkg set scripts.lint:format="eslint --cache --fix **/src/**/*.{html,htm,js,jsx,cjs,mjs,ts,tsx,cts,mts,vue}"
 ```
 
 或者在package.json的scripts中添加如下配置：
@@ -85,6 +85,6 @@ pnpm pkg set scripts.lint:format="eslint --cache --fix **/src/**/*.{html,htm,js,
 ```json
 {
   "scripts":{
-    "lint:format":"eslint --cache --fix **/src/**/*.{html,htm,js,jsx,ts,tsx,vue}"
+    "lint:format":"eslint --cache --fix **/src/**/*.{html,htm,js,jsx,cjs,mjs,ts,tsx,cts,mts,vue}"
   }
 }
