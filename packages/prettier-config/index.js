@@ -11,7 +11,7 @@ module.exports = {
   // 使用单引号
   singleQuote: true,
   // 结尾需要逗号
-  trailingComma: "es5",
+  trailingComma: "none",
   // 对象和括号之间是否需要空格
   bracketSpacing: true,
   // html, vue, jsx 中每个属性占一行
