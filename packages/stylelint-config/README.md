@@ -2,16 +2,16 @@
 
 ![npm](https://img.shields.io/npm/dt/@eliduty/stylelint-config) ![npm](https://img.shields.io/npm/v/@eliduty/stylelint-config)
 
-Prettier 配置。
+stylelint 配置。
 
 ## 安装
 
 ```shell
-npm install -D stylelint @eliduty/stylelint-config
+npm install -D @eliduty/stylelint-config
 // 或
-yarn add -D stylelint @eliduty/stylelint-config
+yarn add -D @eliduty/stylelint-config
 // 或
-pnpm install -D stylelint @eliduty/stylelint-config
+pnpm install -D @eliduty/stylelint-config
 ```
 
 ## 基本使用
