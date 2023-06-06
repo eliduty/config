@@ -22,7 +22,10 @@
   ],
   "main": "./index.js",
   "files": [
-    "index.js"
+    "index.js",
+    "basic.js",
+    "typescript.js",
+    "vue.js"
   ],
   "scripts": {
     "release": "release-it"
