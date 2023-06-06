@@ -10,13 +10,7 @@ module.exports = {
     '@vue/eslint-config-prettier',
   ],
   env: {
-    browser: true,
-    node: true,
     'vue/setup-compiler-macros': true,
-  },
-  parserOptions: {
-    parser: '@typescript-eslint/parser',
-    sourceType: 'module',
   },
   rules: {
     'vue/multi-word-component-names': 'off',
