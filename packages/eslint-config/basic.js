@@ -52,6 +52,7 @@ module.exports = {
       },
     ],
     "n/no-missing-import": "off",
+    'n/no-unpublished-import': 'off',
     "import/no-named-as-default": "off",
     "import/no-relative-packages": "off",
     "import/no-named-as-default-member": "off",
@@ -89,7 +90,8 @@ module.exports = {
           arg: false,
           el: false,
           err: false,
-          fn:false
+          fn: false,
+          pkg:false
         },
       },
     ],
