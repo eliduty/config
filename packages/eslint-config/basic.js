@@ -122,6 +122,7 @@ module.exports = {
     "unicorn/prefer-at": "off",
     "unicorn/prefer-spread": "off",
     "unicorn/prefer-module": "off",
+    "unicorn/explicit-length-check":"off",
     "promise/always-return": "off",
     "promise/catch-or-return":"off"
   },
