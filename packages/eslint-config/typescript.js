@@ -2,7 +2,7 @@ module.exports = {
   extends: [
     require.resolve('./basic'),
     // eslint-import-resolver-typescript---import校验对typescript的支持,是eslint-plugin-import插件的补充
-    "plugin:import/typescript",
+    // "plugin:import/typescript",
     "plugin:@typescript-eslint/recommended",
   ],
   parser: "@typescript-eslint/parser",

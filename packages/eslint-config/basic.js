@@ -2,11 +2,10 @@ module.exports = {
   env: {
     browser: true,
     node: true,
-    es6: true,
-    es2022: true,
+    es6: true
   },
   parserOptions: {
-    ecmaVersion: "latest",
+    // ecmaVersion: "latest",
     sourceType: "module",
     ecmaFeatures: {
       jsx: true,
@@ -16,9 +15,9 @@ module.exports = {
     // eslint 的官方推荐配置
     "eslint:recommended",
     // eslint-plugin-import---对import的导入进行检查
-    "plugin:import/recommended",
+    // "plugin:import/recommended",
     // unicorn的推荐配置
-    "plugin:unicorn/recommended",
+    // "plugin:unicorn/recommended",
     // 对promise的推荐配置
     "plugin:promise/recommended",
     // 对node的提示
