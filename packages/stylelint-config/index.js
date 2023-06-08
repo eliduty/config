@@ -83,5 +83,6 @@ module.exports = {
         ignorePseudoElements: ["v-deep"],
       },
     ],
+    'import-notation': 'string'
   },
 };
