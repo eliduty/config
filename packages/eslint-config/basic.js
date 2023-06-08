@@ -29,7 +29,7 @@ module.exports = {
     // 用于关闭eslint中的所有格式化配置，全部在.prettierrc中进行格式化配置
     "plugin:prettier/recommended",
   ],
-  plugins: ["html", "import", "unicorn", "unused-imports"],
+  plugins: ["html", /* "import", "unicorn", */ "unused-imports"],
   rules: {
     "no-console": process.env.NODE_ENV === "production" ? "warn" : "off",
     "no-debugger": process.env.NODE_ENV === "production" ? "warn" : "off",
