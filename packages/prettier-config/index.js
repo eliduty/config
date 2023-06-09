@@ -37,6 +37,7 @@ module.exports = {
   // 是否换行
   proseWrap: "never",
   // 换行符，linux和macos中为'lf'，window中为'crlf'
+  endOfLine: "auto",
   // endOfLine: process.platform === "win32" ? "crlf" : "lf",
   // 插件
   plugins: [

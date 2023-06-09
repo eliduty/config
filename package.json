@@ -11,7 +11,8 @@
   "main": "index.js",
   "scripts": {
     "dev:example:vue3": "pnpm --filter @example/vite-vue3 dev",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "taze": "taze -Ir"
   },
   "devDependencies": {
     "release-it": "^15.11.0",
