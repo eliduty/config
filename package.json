@@ -16,7 +16,7 @@
   },
   "devDependencies": {
     "release-it": "^15.11.0",
-    "taze": "^0.10.2",
+    "taze": "^0.10.3",
     "unbuild": "^1.2.1"
   }
 }
