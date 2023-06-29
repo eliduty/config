@@ -1,5 +1,5 @@
 {
-  "name": "config",
+  "name": "@eliduty/config",
   "version": "1.0.0",
   "description": "project config",
   "keywords": [],
@@ -11,8 +11,8 @@
   "main": "index.js",
   "scripts": {
     "dev:example:vue3": "pnpm --filter @example/vite-vue3 dev",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "taze": "taze -Ir"
+    "taze": "taze -Ir",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
     "release-it": "^15.11.0",
