@@ -8,6 +8,12 @@ importers:
 
   .:
     devDependencies:
+      '@eliduty/prettier-config':
+        specifier: workspace:^
+        version: link:packages/prettier-config
+      prettier:
+        specifier: ^3.0.0
+        version: 3.0.0
       release-it:
         specifier: ^16.1.0
         version: 16.1.0
