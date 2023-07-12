@@ -1,6 +1,6 @@
 {
   "name": "@eliduty/stylelint-config",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "This is a custom formatting of stylelint",
   "keywords": [
     "config",
@@ -29,13 +29,13 @@
   },
   "dependencies": {
     "stylelint-config-rational-order": "^0.1.2",
-    "stylelint-config-standard": "^33.0.0"
+    "stylelint-config-standard": "^34.0.0"
   },
   "devDependencies": {
     "postcss-html": "^1.5.0",
     "postcss-less": "^6.0.0",
     "postcss-scss": "^4.0.6",
-    "stylelint": "^15.9.0"
+    "stylelint": "^15.10.1"
   },
   "peerDependencies": {
     "postcss-html": "^1.5.0",
