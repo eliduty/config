@@ -15,8 +15,8 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
-    "release-it": "^15.11.0",
-    "taze": "^0.10.3",
+    "release-it": "^16.1.0",
+    "taze": "^0.11.2",
     "unbuild": "^1.2.1"
   }
 }
