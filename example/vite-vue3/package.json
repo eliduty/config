@@ -14,12 +14,17 @@
     "vue": "^3.3.4"
   },
   "devDependencies": {
+    "@eliduty/eslint-config": "workspace:^",
+    "@eliduty/prettier-config": "workspace:^",
     "@eliduty/stylelint-config": "workspace:*",
     "@eliduty/tsconfig": "workspace:*",
     "@vitejs/plugin-vue": "^4.2.3",
+    "eslint": "^8.44.0",
+    "prettier": "^3.0.0",
     "stylelint": "^15.10.1",
     "typescript": "^5.1.6",
     "vite": "^4.4.3",
+    "vite-plugin-eslint": "^1.8.1",
     "vue-tsc": "^1.8.4"
   }
 }

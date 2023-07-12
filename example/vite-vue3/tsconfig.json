@@ -1,3 +1,4 @@
 {
-  "extends": "@eliduty/tsconfig/vue"
+  "extends": "@eliduty/tsconfig/vue",
+  "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue"]
 }
