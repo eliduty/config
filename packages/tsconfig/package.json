@@ -1,6 +1,6 @@
 {
   "name": "@eliduty/tsconfig",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "This is the configuration of the TypeScript project",
   "keywords": [
     "tsconfig",
@@ -38,7 +38,7 @@
   },
   "devDependencies": {
     "@tsconfig/node-lts": "^18.12.3",
-    "@types/node": "^20.4.1",
+    "@types/node": "^20.4.2",
     "@vue/tsconfig": "^0.4.0"
   },
   "peerDependencies": {
