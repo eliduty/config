@@ -1,6 +1,6 @@
 {
   "name": "@eliduty/prettier-config",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "This is a custom formatting of an prettier",
   "keywords": [
     "config",
@@ -13,6 +13,7 @@
     "name": "eliduty",
     "email": "eliduty@qq.com"
   },
+  "type": "module",
   "contributors": [
     {
       "name": "eliduty",
@@ -20,12 +21,22 @@
       "url": "https://github.com/eliduty"
     }
   ],
-  "main": "./index.js",
+  "main": "dist/index.cjs",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.cjs"
+    },
+    "./*": "./*"
+  },
   "files": [
-    "index.js"
+    "dist/*"
   ],
   "scripts": {
-    "release": "release-it"
+    "release": "release-it",
+    "build": "unbuild"
   },
   "dependencies": {
     "prettier-plugin-organize-imports": "^3.2.3",
