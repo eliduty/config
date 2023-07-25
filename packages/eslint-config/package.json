@@ -1,6 +1,6 @@
 {
   "name": "@eliduty/eslint-config",
-  "version": "1.0.18",
+  "version": "1.0.19",
   "description": "This is the configurable eslint standard",
   "keywords": [
     "config",
