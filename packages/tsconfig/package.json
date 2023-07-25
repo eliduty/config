@@ -38,12 +38,12 @@
   },
   "devDependencies": {
     "@tsconfig/node-lts": "^18.12.3",
-    "@types/node": "^20.4.2",
+    "@types/node": "^20.4.4",
     "@vue/tsconfig": "^0.4.0"
   },
   "peerDependencies": {
-    "@tsconfig/node-lts": "^18.12.2",
-    "@types/node": "^20.2.5",
+    "@tsconfig/node-lts": "^18.12.3",
+    "@types/node": "^20.4.4",
     "@vue/tsconfig": "^0.4.0"
   },
   "publishConfig": {
