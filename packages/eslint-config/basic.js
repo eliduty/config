@@ -29,8 +29,8 @@ module.exports = {
   ],
   plugins: ["html", /* "import", "unicorn", */ "unused-imports"],
   rules: {
-    "no-console": process.env.NODE_ENV === "production" ? "warn" : "off",
-    "no-debugger": process.env.NODE_ENV === "production" ? "warn" : "off",
+    'no-console': ["warn", { allow: ["warn", "error"] }],
+    'no-debugger': 'error',
     "prefer-const": 0,
     "no-empty-function": 1,
     camelcase: ["warn", { properties: "never" }],
