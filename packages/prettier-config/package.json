@@ -13,7 +13,6 @@
     "name": "eliduty",
     "email": "eliduty@qq.com"
   },
-  "type": "module",
   "contributors": [
     {
       "name": "eliduty",
@@ -21,8 +20,7 @@
       "url": "https://github.com/eliduty"
     }
   ],
-  "main": "dist/index.cjs",
-  "types": "dist/index.d.ts",
+  "type": "module",
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",
@@ -31,22 +29,24 @@
     },
     "./*": "./*"
   },
+  "main": "dist/index.cjs",
+  "types": "dist/index.d.ts",
   "files": [
     "dist/*"
   ],
   "scripts": {
-    "release": "release-it",
-    "build": "unbuild"
+    "build": "unbuild",
+    "release": "release-it"
   },
   "dependencies": {
     "prettier-plugin-organize-imports": "^3.2.3",
     "prettier-plugin-packagejson": "^2.4.5"
   },
   "devDependencies": {
-    "prettier": ">=3.0.0"
+    "prettier": ">=2.0.0"
   },
   "peerDependencies": {
-    "prettier": ">= 2.0.0"
+    "prettier": ">=2.0.0"
   },
   "publishConfig": {
     "access": "public"
