@@ -1,6 +1,6 @@
 {
   "name": "@eliduty/stylelint-config",
-  "version": "1.0.10",
+  "version": "1.0.11",
   "description": "This is a custom formatting of stylelint",
   "keywords": [
     "config",
