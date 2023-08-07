@@ -16,7 +16,7 @@
   },
   "devDependencies": {
     "@eliduty/prettier-config": "workspace:^",
-    "prettier": "^3.0.0",
+    "prettier": "^3.0.1",
     "release-it": "^16.1.3",
     "taze": "^0.11.2",
     "unbuild": "^1.2.1"
