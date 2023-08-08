@@ -1,41 +1,40 @@
 module.exports = {
   env: {
     browser: true,
-    node: true,
+    node: true
   },
   parserOptions: {
     ecmaVersion: 2022,
-    sourceType: "module",
+    sourceType: 'module',
     ecmaFeatures: {
-      jsx: true,
-    },
+      jsx: true
+    }
   },
   extends: [
     // eslint 的官方推荐配置
-    "eslint:recommended",
+    'eslint:recommended',
     // eslint-plugin-import---对import的导入进行检查
     // "plugin:import/recommended",
     // unicorn的推荐配置
     // "plugin:unicorn/recommended",
     // 对promise的推荐配置
-    "plugin:promise/recommended",
+    'plugin:promise/recommended',
     // 对node的提示
     // "plugin:n/recommended",
     // 对eslint注释的提示
-    "plugin:eslint-comments/recommended",
+    'plugin:eslint-comments/recommended',
     // 对json的提示
-    "plugin:jsonc/recommended-with-jsonc",
-
+    'plugin:jsonc/recommended-with-jsonc'
   ],
-  plugins: ["html", /* "import", "unicorn", */ "unused-imports"],
+  plugins: ['html', /* "import", "unicorn", */ 'unused-imports'],
   rules: {
-    'no-console': ["warn", { allow: ["warn", "error"] }],
+    'no-console': ['warn', { allow: ['warn', 'error'] }],
     'no-debugger': 'error',
-    "prefer-const": 0,
-    "no-empty-function": 1,
-    camelcase: ["warn", { properties: "never" }],
-    quotes: ["warn", "single"],
-    semi: "warn",
+    'prefer-const': 0,
+    'no-empty-function': 1,
+    camelcase: ['warn', { properties: 'never' }],
+    quotes: ['warn', 'single'],
+    semi: 'warn',
     // "unicorn/prevent-abbreviations": [
     //   "error",
     //   {
@@ -111,41 +110,39 @@ module.exports = {
     // "import/named": "off",
     // "import/default":"off",
 
-
-
-    "promise/always-return": "off",
-    "promise/catch-or-return":"off"
+    'promise/always-return': 'off',
+    'promise/catch-or-return': 'off'
   },
   ignorePatterns: [
-    "*.min.*",
-    "*.d.ts",
-    "CHANGELOG.md",
-    "dist",
-    "LICENSE*",
-    "output",
-    "out",
-    "coverage",
-    "public",
-    "temp",
-    "package-lock.json",
-    "pnpm-lock.yaml",
-    "yarn.lock",
-    "__snapshots__",
+    '*.min.*',
+    '*.d.ts',
+    'CHANGELOG.md',
+    'dist',
+    'LICENSE*',
+    'output',
+    'out',
+    'coverage',
+    'public',
+    'temp',
+    'package-lock.json',
+    'pnpm-lock.yaml',
+    'yarn.lock',
+    '__snapshots__',
     // ignore for in lint-staged
-    "*.css",
-    "*.png",
-    "*.ico",
-    "*.toml",
-    "*.patch",
-    "*.txt",
-    "*.crt",
-    "*.key",
-    "Dockerfile",
+    '*.css',
+    '*.png',
+    '*.ico',
+    '*.toml',
+    '*.patch',
+    '*.txt',
+    '*.crt',
+    '*.key',
+    'Dockerfile',
     // force include
-    "!.github",
-    "!.vitepress",
-    "!.vscode",
+    '!.github',
+    '!.vitepress',
+    '!.vscode',
     // force exclude
-    ".vitepress/cache",
-  ],
+    '.vitepress/cache'
+  ]
 };

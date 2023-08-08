@@ -3,19 +3,17 @@ module.exports = {
     require.resolve('./basic'),
     // eslint-import-resolver-typescript---import校验对typescript的支持,是eslint-plugin-import插件的补充
     // "plugin:import/typescript",
-    "plugin:@typescript-eslint/recommended",
+    '@vue/eslint-config-typescript/recommended'
   ],
-  parser: "@typescript-eslint/parser",
-  plugins: ["@typescript-eslint"],
   settings: {
     // eslint-import-resolver-typescript
-    "import/resolver": {
+    'import/resolver': {
       typescript: true,
-      node: true,
-    },
+      node: true
+    }
   },
   rules: {
-    "@typescript-eslint/no-explicit-any": "off",
-    "@typescript-eslint/ban-ts-comment":"off",
-  },
+    '@typescript-eslint/no-explicit-any': 'off',
+    '@typescript-eslint/ban-ts-comment': 'off'
+  }
 };
