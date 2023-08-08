@@ -12,9 +12,12 @@
   "scripts": {
     "dev:example:vue3": "pnpm --filter @example/vite-vue3 dev",
     "taze": "taze -Ir",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-path .gitignore",
+    "lint:fix": "pnpm lint --fix"
   },
   "devDependencies": {
+    "@eliduty/eslint-config": "workspace:^",
     "@eliduty/prettier-config": "workspace:^",
     "prettier": "^3.0.1",
     "release-it": "^16.1.3",
