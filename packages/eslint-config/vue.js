@@ -13,7 +13,9 @@ module.exports = {
     'vue/setup-compiler-macros': true,
   },
   rules: {
+    'vue/singleline-html-element-content-newline': 'off',
     'vue/multi-word-component-names': 'off',
+    'vue/require-default-prop': 'off',
     // 'vue/html-closing-bracket-newline': 'off',
     'vue/max-attributes-per-line': 'off',
     // 关闭eslint可能与prettier发生冲突的代码格式化规则
