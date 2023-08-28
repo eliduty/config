@@ -22,6 +22,6 @@
     "prettier": "^3.0.2",
     "release-it": "^16.1.5",
     "taze": "^0.11.2",
-    "unbuild": "^1.2.1"
+    "unbuild": "^2.0.0"
   }
 }
