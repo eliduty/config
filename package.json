@@ -19,7 +19,7 @@
   "devDependencies": {
     "@eliduty/eslint-config": "workspace:^",
     "@eliduty/prettier-config": "workspace:^",
-    "prettier": "^3.0.2",
+    "prettier": "^3.0.3",
     "release-it": "^16.1.5",
     "taze": "^0.11.2",
     "unbuild": "^2.0.0"
