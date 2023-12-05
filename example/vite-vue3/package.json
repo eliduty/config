@@ -11,20 +11,20 @@
     "lint:style": "stylelint --fix src/**/*.{vue,htm,html,css,less,scss}"
   },
   "dependencies": {
-    "vue": "^3.3.8"
+    "vue": "^3.3.9"
   },
   "devDependencies": {
     "@eliduty/eslint-config": "workspace:^",
     "@eliduty/prettier-config": "workspace:^",
     "@eliduty/stylelint-config": "workspace:*",
     "@eliduty/tsconfig": "workspace:*",
-    "@vitejs/plugin-vue": "^4.5.0",
-    "eslint": "^8.54.0",
+    "@vitejs/plugin-vue": "^4.5.1",
+    "eslint": "^8.55.0",
     "prettier": "^3.1.0",
     "stylelint": "^15.11.0",
     "typescript": "^5.3.2",
-    "vite": "^5.0.2",
+    "vite": "^5.0.4",
     "vite-plugin-eslint": "^1.8.1",
-    "vue-tsc": "^1.8.22"
+    "vue-tsc": "^1.8.24"
   }
 }
