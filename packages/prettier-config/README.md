@@ -19,9 +19,9 @@ pnpm install -D prettier @eliduty/prettier-config
 - 【推荐】在.prettierrc.js中使用
 
 ```js
-module.exports = {
-  ...require("@eliduty/prettier-config"),
-  // ...Other override configuration
+import config from '@eliduty/prettier-config';
+export default {
+  ...config
 };
 ```
 
