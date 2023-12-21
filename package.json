@@ -15,16 +15,16 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-path .gitignore",
     "lint:fix": "pnpm lint --fix",
-    "release:eslint":"pnpm --filter @eliduty/eslint-config release",
-    "release:prettier":"pnpm --filter @eliduty/prettier-config release",
+    "release:eslint": "pnpm --filter @eliduty/eslint-config release",
+    "release:prettier": "pnpm --filter @eliduty/prettier-config release",
     "release:stylelint": "pnpm --filter @eliduty/stylelint-config release",
     "release:ts": "pnpm --filter @eliduty/tsconfig release"
   },
   "devDependencies": {
     "@eliduty/eslint-config": "workspace:^",
     "@eliduty/prettier-config": "workspace:^",
-    "prettier": "^3.1.0",
-    "release-it": "^17.0.0",
+    "prettier": "^3.1.1",
+    "release-it": "^17.0.1",
     "taze": "^0.13.0",
     "unbuild": "^2.0.0"
   }
