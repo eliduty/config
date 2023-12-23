@@ -1,6 +1,6 @@
 {
   "name": "@eliduty/prettier-config",
-  "version": "1.0.19",
+  "version": "1.0.20",
   "description": "This is a custom formatting of an prettier",
   "keywords": [
     "config",
@@ -46,7 +46,7 @@
     "prettier": "^3.1.1"
   },
   "peerDependencies": {
-    "prettier": "^2.0.0",
+    "prettier": "^3.0.0",
     "prettier-plugin-organize-imports": "^3.2.4",
     "prettier-plugin-packagejson": "^2.4.7"
   },
