@@ -37,8 +37,8 @@
     "release": "release-it"
   },
   "devDependencies": {
-    "@tsconfig/node-lts": "^20.1.2",
-    "@types/node": "^20.11.30",
+    "@tsconfig/node-lts": "^20.1.3",
+    "@types/node": "^20.12.7",
     "@vue/tsconfig": "^0.5.1"
   },
   "peerDependencies": {

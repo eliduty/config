@@ -11,7 +11,7 @@
     "lint:style": "stylelint --fix src/**/*.{vue,htm,html,css,less,scss}"
   },
   "dependencies": {
-    "vue": "^3.4.21"
+    "vue": "^3.4.23"
   },
   "devDependencies": {
     "@eliduty/eslint-config": "workspace:^",
@@ -19,12 +19,12 @@
     "@eliduty/stylelint-config": "workspace:*",
     "@eliduty/tsconfig": "workspace:*",
     "@vitejs/plugin-vue": "^5.0.4",
-    "eslint": "^8.57.0",
+    "eslint": "^9.0.0",
     "prettier": "^3.2.5",
-    "stylelint": "^16.3.0",
-    "typescript": "^5.4.3",
-    "vite": "^5.2.6",
+    "stylelint": "^16.3.1",
+    "typescript": "^5.4.5",
+    "vite": "^5.2.9",
     "vite-plugin-eslint": "^1.8.1",
-    "vue-tsc": "^2.0.7"
+    "vue-tsc": "^2.0.13"
   }
 }
