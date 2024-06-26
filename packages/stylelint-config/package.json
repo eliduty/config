@@ -7,8 +7,8 @@
     "stylelint",
     "format"
   ],
-  "homepage": "https://www.npmjs.com/package/@eliduty/stylelint-config",
   "license": "MIT",
+  "homepage": "https://www.npmjs.com/package/@eliduty/stylelint-config",
   "author": {
     "name": "eliduty",
     "email": "eliduty@qq.com"
@@ -20,12 +20,27 @@
       "url": "https://github.com/eliduty"
     }
   ],
-  "main": "./index.js",
-  "files": [
-    "index.js"
-  ],
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "require": "./dist/index.cjs",
+      "import": "./dist/index.mjs"
+    },
+    "./*": "./*"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
+    "build": "unbuild",
     "release": "release-it"
+  },
+  "peerDependencies": {
+    "postcss": "^8.4.38",
+    "postcss-html": "^1.6.0",
+    "postcss-less": "^6.0.0",
+    "postcss-scss": "^4.0.9",
+    "stylelint": "^16.1.0"
   },
   "dependencies": {
     "stylelint-config-rational-order": "^0.1.2",
@@ -37,15 +52,5 @@
     "postcss-less": "^6.0.0",
     "postcss-scss": "^4.0.9",
     "stylelint": "^16.6.1"
-  },
-  "peerDependencies": {
-    "postcss": "^8.4.38",
-    "postcss-html": "^1.6.0",
-    "postcss-less": "^6.0.0",
-    "postcss-scss": "^4.0.9",
-    "stylelint": "^16.1.0"
-  },
-  "publishConfig": {
-    "access": "public"
   }
 }
