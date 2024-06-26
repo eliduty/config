@@ -1,7 +1,8 @@
-// https://prettier.io/docs/en/options.html
-const config =  {
+import type { Options } from "prettier";
+
+const config: Options = {
   // 每一行代码最大长度
-  printWidth: 500,
+  printWidth: 100,
   // 指定每个缩进级别的空格数
   tabWidth: 2,
   // 是否使用制表符缩进
@@ -40,10 +41,7 @@ const config =  {
   endOfLine: "auto",
   // endOfLine: process.platform === "win32" ? "crlf" : "lf",
   // 插件
-  plugins: [
-    "prettier-plugin-organize-imports",
-    "prettier-plugin-packagejson",
-  ],
+  // plugins: ["prettier-plugin-organize-imports", "prettier-plugin-packagejson"],
 };
 
 export default config;

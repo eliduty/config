@@ -2,6 +2,7 @@
   "name": "@eliduty/config",
   "version": "1.0.0",
   "description": "project config",
+  "type": "module",
   "keywords": [],
   "license": "MIT",
   "author": {
@@ -11,21 +12,22 @@
   "main": "index.js",
   "scripts": {
     "dev:example:vue3": "pnpm --filter @example/vite-vue3 dev",
-    "taze": "taze -Ir",
-    "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-path .gitignore",
     "lint:fix": "pnpm lint --fix",
     "release:eslint": "pnpm --filter @eliduty/eslint-config release",
     "release:prettier": "pnpm --filter @eliduty/prettier-config release",
     "release:stylelint": "pnpm --filter @eliduty/stylelint-config release",
-    "release:ts": "pnpm --filter @eliduty/tsconfig release"
+    "release:ts": "pnpm --filter @eliduty/tsconfig release",
+    "taze": "taze minor -Ir",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
-    "@eliduty/eslint-config": "workspace:^",
-    "@eliduty/prettier-config": "workspace:^",
-    "prettier": "^3.2.5",
-    "release-it": "^17.2.0",
-    "taze": "^0.13.6",
+    "@eliduty/eslint-config": "workspace:*",
+    "@eliduty/prettier-config": "workspace:*",
+    "@eliduty/tsconfig": "workspace:*",
+    "prettier": "^3.3.2",
+    "release-it": "^17.4.0",
+    "taze": "^0.13.8",
     "unbuild": "^2.0.0"
   }
 }

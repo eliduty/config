@@ -1,0 +1,10 @@
+{
+  "extends": ["./packages/tsconfig/tsconfig.json"],
+  "compilerOptions": {
+    "paths": {
+      "@eliduty/*": ["./packages/*/src/index.ts"]
+    }
+  },
+  "include": ["**/*.ts", "**/*.d.ts", "eslint.config.ts"],
+  "exclude": ["**/node_modules/**", "**/dist/**"]
+}
