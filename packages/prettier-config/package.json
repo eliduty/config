@@ -1,6 +1,6 @@
 {
   "name": "@eliduty/prettier-config",
-  "version": "1.0.23",
+  "version": "1.0.24",
   "description": "This is a custom formatting of an prettier",
   "keywords": [
     "config",
