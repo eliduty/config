@@ -54,12 +54,8 @@ export function config(
     vue: boolean;
     /** Prettier support. Default: true */
     prettier: boolean;
-    /** markdown support. Default: true */
-    markdown: boolean;
     /** UnoCSS support. Auto-enable. */
     unocss: boolean;
-    sortKeys: boolean;
-    command: boolean;
   }> = {}
 ): Linter.FlatConfig[] {
   const configs = [...presetBasic, ...presetJsonc];

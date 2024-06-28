@@ -27,7 +27,7 @@
     "@eliduty/tsconfig": "workspace:*",
     "prettier": "^3.3.2",
     "release-it": "^17.4.0",
-    "taze": "^0.13.8",
+    "taze": "^0.13.9",
     "unbuild": "^2.0.0"
   }
 }
