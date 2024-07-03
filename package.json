@@ -26,8 +26,8 @@
     "@eliduty/prettier-config": "workspace:*",
     "@eliduty/tsconfig": "workspace:*",
     "prettier": "^3.3.2",
-    "release-it": "^17.4.0",
-    "taze": "^0.13.9",
+    "release-it": "^17.4.1",
+    "taze": "^0.14.2",
     "unbuild": "^2.0.0"
   }
 }
