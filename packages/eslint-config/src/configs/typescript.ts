@@ -31,9 +31,9 @@ export const typescriptCore = tseslint.config({
     '@typescript-eslint/no-import-type-side-effects': 'error',
     '@typescript-eslint/no-non-null-assertion': 'off',
     '@typescript-eslint/no-redeclare': 'error',
-
+    '@typescript-eslint/no-unused-expressions': 'off',
     // handled by unused-imports/no-unused-imports
-    '@typescript-eslint/no-unused-vars': 'off',
+    '@typescript-eslint/no-unused-vars': 'warn',
 
     '@typescript-eslint/prefer-as-const': 'warn',
     '@typescript-eslint/prefer-literal-enum-member': ['error', { allowBitwiseExpressions: true }],

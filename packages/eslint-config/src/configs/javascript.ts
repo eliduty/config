@@ -3,7 +3,7 @@ import globals from 'globals';
 import { isInEditor } from '../env';
 import { pluginUnusedImports } from '../plugins';
 
-export const restrictedSyntaxJs = ['ForInStatement', 'LabeledStatement', 'WithStatement'];
+export const restrictedSyntaxJs = ['LabeledStatement', 'WithStatement'];
 
 export const javascript: Linter.FlatConfig[] = [
   {
