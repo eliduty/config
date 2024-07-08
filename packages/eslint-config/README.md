@@ -26,7 +26,7 @@ Require Node.js >= 18.18, and ESLint >= 8.56.0.
 
 ```js
 // eslint.config.js
-import { config } from '@sxzz/eslint-config'
+import { config } from '@eliduty/eslint-config'
 export default config()
 ```
 
