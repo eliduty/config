@@ -12,19 +12,18 @@ export const prettier: Linter.FlatConfig[] = [
     rules: {
       ...prettierConflictRules,
       ...pluginPrettier.configs.recommended.rules,
-      'prettier/prettier': 'warn'
-      // "prettier/prettier": [
-      //   "off",
-      //   {
-      //     singleQuote: true,
-      //     trailingComma: "none",
-      //     bracketSpacing: true,
-      //     jsxBracketSameLine: true,
-      //     sortAttributes: true,
-      //     "key-spacing": false,
-      //     endOfLine: "auto",
-      //   },
-      // ],
+      'prettier/prettier': [
+        'off',
+        {
+          singleQuote: true,
+          trailingComma: 'none',
+          bracketSpacing: true,
+          jsxBracketSameLine: true,
+          sortAttributes: true,
+          'key-spacing': false,
+          endOfLine: 'auto'
+        }
+      ]
     }
   }
 ];

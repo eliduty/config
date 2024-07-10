@@ -1,6 +1,6 @@
 {
   "name": "@eliduty/eslint-config",
-  "version": "2.0.4",
+  "version": "2.0.5",
   "description": "This is the configurable eslint standard",
   "type": "module",
   "keywords": [
@@ -46,7 +46,7 @@
     "eslint": "^9.5.0"
   },
   "dependencies": {
-    "@unocss/eslint-plugin": "^0.61.0",
+    "@unocss/eslint-plugin": "^0.61.3",
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-import-x": "^0.5.3",
     "eslint-plugin-jsonc": "^2.16.0",
