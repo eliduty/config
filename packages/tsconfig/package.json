@@ -1,6 +1,6 @@
 {
   "name": "@eliduty/tsconfig",
-  "version": "1.1.4",
+  "version": "1.2.0",
   "description": "This is the configuration of the TypeScript project",
   "keywords": [
     "tsconfig",
@@ -8,8 +8,8 @@
     "typescript vue",
     "typescript node"
   ],
-  "homepage": "https://www.npmjs.com/package/@eliduty/tsconfig",
   "license": "MIT",
+  "homepage": "https://www.npmjs.com/package/@eliduty/tsconfig",
   "author": {
     "name": "eliduty",
     "email": "eliduty@qq.com"
@@ -21,32 +21,32 @@
       "url": "https://github.com/eliduty"
     }
   ],
+  "files": [
+    "tsconfig.basic.json",
+    "tsconfig.json",
+    "tsconfig.node.json",
+    "tsconfig.vue.json"
+  ],
+  "main": "tsconfig.json",
   "exports": {
     ".": "./tsconfig.json",
     "./vue": "./tsconfig.vue.json",
     "./node": "./tsconfig.node.json"
   },
-  "main": "tsconfig.json",
-  "files": [
-    "tsconfig.json",
-    "tsconfig.basic.json",
-    "tsconfig.vue.json",
-    "tsconfig.node.json"
-  ],
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "release": "release-it"
   },
-  "devDependencies": {
+  "peerDependencies": {
     "@tsconfig/node-lts": "^20.1.3",
-    "@types/node": "^20.14.9",
+    "@types/node": "^20.14.10",
     "@vue/tsconfig": "^0.5.1"
   },
-  "peerDependencies": {
-    "@tsconfig/node-lts": "^18.12.3",
-    "@types/node": "^20.4.4",
-    "@vue/tsconfig": "^0.4.0"
-  },
-  "publishConfig": {
-    "access": "public"
+  "devDependencies": {
+    "@tsconfig/node-lts": "^20.1.3",
+    "@types/node": "^20.14.10",
+    "@vue/tsconfig": "^0.5.1"
   }
 }
