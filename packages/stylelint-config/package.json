@@ -1,6 +1,6 @@
 {
   "name": "@eliduty/stylelint-config",
-  "version": "2.0.2",
+  "version": "2.0.4",
   "description": "This is a custom formatting of stylelint",
   "keywords": [
     "config",
@@ -19,6 +19,9 @@
       "email": "eliduty@qq.com",
       "url": "https://github.com/eliduty"
     }
+  ],
+  "files": [
+    "dist/*"
   ],
   "exports": {
     ".": {
