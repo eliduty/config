@@ -1,6 +1,6 @@
 {
   "name": "@eliduty/tsconfig",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "description": "This is the configuration of the TypeScript project",
   "keywords": [
     "tsconfig",
