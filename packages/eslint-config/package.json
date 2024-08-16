@@ -46,7 +46,7 @@
     "eslint": "^9.5.0"
   },
   "dependencies": {
-    "@unocss/eslint-plugin": "^0.62.1",
+    "@unocss/eslint-plugin": "^0.62.2",
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-import-x": "^3.1.0",
     "eslint-plugin-jsonc": "^2.16.0",
