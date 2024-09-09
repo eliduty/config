@@ -3,7 +3,8 @@
   "compilerOptions": {
     "paths": {
       "@eliduty/*": ["./packages/*/src/index.ts"]
-    }
+    },
+    "types": ["node"]
   },
   "include": ["**/*.ts", "**/*.d.ts", "eslint.config.ts"],
   "exclude": ["**/node_modules/**", "**/dist/**"]
