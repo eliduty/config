@@ -50,10 +50,10 @@
     "stylelint-config-standard": "^36.0.1"
   },
   "devDependencies": {
-    "postcss": "^8.4.45",
+    "postcss": "^8.4.49",
     "postcss-html": "^1.7.0",
     "postcss-less": "^6.0.0",
     "postcss-scss": "^4.0.9",
-    "stylelint": "^16.9.0"
+    "stylelint": "^16.10.0"
   }
 }
