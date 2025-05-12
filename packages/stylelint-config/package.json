@@ -47,13 +47,13 @@
   },
   "dependencies": {
     "stylelint-config-rational-order": "^0.1.2",
-    "stylelint-config-standard": "^36.0.1"
+    "stylelint-config-standard": "^38.0.0"
   },
   "devDependencies": {
-    "postcss": "^8.4.49",
-    "postcss-html": "^1.7.0",
+    "postcss": "^8.5.3",
+    "postcss-html": "^1.8.0",
     "postcss-less": "^6.0.0",
     "postcss-scss": "^4.0.9",
-    "stylelint": "^16.10.0"
+    "stylelint": "^16.19.1"
   }
 }
