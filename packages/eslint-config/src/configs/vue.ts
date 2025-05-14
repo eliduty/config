@@ -65,9 +65,9 @@ const vueCustomRules: Linter.RulesRecord = {
 
 const vue3Rules: Linter.RulesRecord = {
   ...pluginVue.configs.base.rules,
-  ...pluginVue.configs['vue3-essential'].rules,
-  ...pluginVue.configs['vue3-strongly-recommended'].rules,
-  ...pluginVue.configs['vue3-recommended'].rules
+  ...pluginVue.configs['flat/essential'].rules,
+  ...pluginVue.configs['flat/strongly-recommended'].rules,
+  ...pluginVue.configs['flat/recommended'].rules
 };
 
 const vue2Rules: Linter.RulesRecord = {
