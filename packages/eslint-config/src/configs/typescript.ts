@@ -40,9 +40,9 @@ export const typescriptCore = tseslint.config({
 
     'no-restricted-syntax': ['error', ...restrictedSyntaxJs, 'TSEnumDeclaration[const=true]']
   }
-}) as Linter.FlatConfig[];
+}) as Linter.Config[];
 
-export const typescript: Linter.FlatConfig[] = [
+export const typescript: Linter.Config[] = [
   ...typescriptCore,
 
   {

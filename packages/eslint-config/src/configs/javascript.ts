@@ -5,7 +5,7 @@ import { pluginUnusedImports } from '../plugins';
 
 export const restrictedSyntaxJs = ['LabeledStatement', 'WithStatement'];
 
-export const javascript: Linter.FlatConfig[] = [
+export const javascript: Linter.Config[] = [
   {
     languageOptions: {
       globals: {

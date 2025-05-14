@@ -44,7 +44,7 @@ export { presetAll as all, presetBasic as basic };
  * @returns
  */
 export function config(
-  config: Linter.FlatConfig | Linter.FlatConfig[] = [],
+  config: Linter.Config | Linter.Config[] = [],
   {
     prettier: enablePrettier = true,
     unocss: enableUnocss = hasUnocss,
@@ -57,7 +57,7 @@ export function config(
     /** UnoCSS support. Auto-enable. */
     unocss: boolean;
   }> = {}
-): Linter.FlatConfig[] {
+): Linter.Config[] {
   const configs = [...presetBasic, ...presetJsonc];
   if (enableVue) {
     configs.push(...vue);
