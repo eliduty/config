@@ -43,6 +43,7 @@ export default {
         ]
       }
     ],
+    "at-rule-no-deprecated": [true, { "ignoreAtRules": ["apply"] }],
     'no-duplicate-selectors': null,
     'no-empty-source': null,
     'no-descending-specificity': null,
