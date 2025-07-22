@@ -44,7 +44,7 @@
     "@vue/tsconfig": "^0.5.1"
   },
   "devDependencies": {
-    "@tsconfig/node-lts": "^22.0.1",
+    "@tsconfig/node-lts": "^22.0.2",
     "@vue/tsconfig": "^0.7.0"
   }
 }
