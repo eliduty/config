@@ -39,11 +39,11 @@
     "release": "release-it"
   },
   "peerDependencies": {
-    "postcss": "^8.4.41",
-    "postcss-html": "^1.7.0",
+    "postcss": "^8.5.6",
+    "postcss-html": "^1.8.0",
     "postcss-less": "^6.0.0",
     "postcss-scss": "^4.0.9",
-    "stylelint": "^16.8.1"
+    "stylelint": "^16.25.0"
   },
   "dependencies": {
     "stylelint-config-rational-order": "^0.1.2",
