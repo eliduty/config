@@ -27,13 +27,14 @@ export const typescriptCore = tseslint.config({
       { disallowTypeAnnotations: false, fixStyle: 'inline-type-imports' }
     ],
     '@typescript-eslint/method-signature-style': ['error', 'property'], // https://www.totaltypescript.com/method-shorthand-syntax-considered-harmful
-    '@typescript-eslint/no-explicit-any': 'warn',
+    '@typescript-eslint/no-explicit-any': 'off',
     '@typescript-eslint/no-import-type-side-effects': 'error',
+    '@typescript-eslint/no-non-null-assertion': 'off',
     '@typescript-eslint/no-redeclare': 'error',
-    '@typescript-eslint/no-unused-expressions': 'warn',
+    '@typescript-eslint/no-unused-expressions': 'off',
     // handled by unused-imports/no-unused-imports
     '@typescript-eslint/no-unused-vars': 'warn',
-    '@typescript-eslint/no-non-null-assertion': 'error',
+
     '@typescript-eslint/prefer-as-const': 'warn',
     '@typescript-eslint/prefer-literal-enum-member': ['error', { allowBitwiseExpressions: true }],
 
