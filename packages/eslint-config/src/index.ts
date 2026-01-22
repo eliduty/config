@@ -19,13 +19,13 @@ import {
 import { hasUnocss, hasVue } from './env';
 
 /** Ignore common files and include javascript support */
-export const presetJavaScript = [...ignores, ...javascript, ...node];
+export const presetJavaScript: Linter.Config[] = [...ignores, ...javascript, ...node];
 /** Includes basic json(c) file support and sorting json keys */
-export const presetJsonc = [...jsonc, ...sortPackageJson, ...sortTsconfig];
+export const presetJsonc: Linter.Config[] = [...jsonc, ...sortPackageJson, ...sortTsconfig];
 /** Includes markdown, yaml + `presetJsonc` support */
-export const presetLangsExtensions = [...presetJsonc];
+export const presetLangsExtensions: Linter.Config[] = [...presetJsonc];
 /** Includes `presetJavaScript` and typescript support */
-export const presetBasic = [...presetJavaScript, ...typescript];
+export const presetBasic: Linter.Config[] = [...presetJavaScript, ...typescript];
 /**
  * Includes
  * - `presetBasic` (JS+TS) support
@@ -34,7 +34,7 @@ export const presetBasic = [...presetJavaScript, ...typescript];
  * - UnoCSS support (`uno.config.ts` is required)
  * - Prettier support
  */
-export const presetAll = [...presetBasic, ...presetLangsExtensions, ...vue, ...unocss, ...prettier];
+export const presetAll: Linter.Config[] = [...presetBasic, ...presetLangsExtensions, ...vue, ...unocss, ...prettier];
 export { presetAll as all, presetBasic as basic };
 
 /**
