@@ -25,11 +25,11 @@
     "@eliduty/eslint-config": "workspace:*",
     "@eliduty/prettier-config": "workspace:*",
     "@eliduty/tsconfig": "workspace:*",
-    "@types/node": "^24.7.0",
-    "eslint": "^9.37.0",
-    "prettier": "^3.6.2",
-    "release-it": "^19.0.5",
-    "taze": "^19.7.0",
+    "@types/node": "^25.0.10",
+    "eslint": "^9.39.2",
+    "prettier": "^3.8.1",
+    "release-it": "^19.2.4",
+    "taze": "^19.9.2",
     "unbuild": "^3.6.1"
   }
 }
