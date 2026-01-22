@@ -1,3 +1,4 @@
 {
-  "extends": "./tsconfig.vue.json"
+  "extends": "./tsconfig.vue.json",
+  "files": []
 }
